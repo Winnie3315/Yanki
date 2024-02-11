@@ -1,0 +1,131 @@
+@media (max-width:1200px) {
+    .container{
+        width: 900px;
+        /* background-color: aqua; */
+    }
+}
+@media (max-width:992px) {
+    .container{
+        width: 700px;
+        
+    }
+    .item-txt{
+        width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .container{
+        width: 500px;
+        padding: 0 20px;
+    }
+    .menu a{
+        display: none;
+    }
+    .menu img{
+        display: block;
+    }
+    .new-item input{
+        width: 450px;
+    }
+    .new-item button{
+        width: 450px;
+    }
+    .new-item{
+        width: 450px;
+    }
+    .tool a:nth-child(1){
+        display: none;
+        background-color: brown;
+    }
+    .tool a:nth-child(2){
+        display: none;
+    }
+    .logo{
+        padding: 0;
+    }
+    .item-txt{
+        width: 100%;
+    }
+    .category-item:nth-child(4){
+        display: none;
+    }
+    .foot-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .foot-item{
+        padding-bottom: 50px;
+        padding-left: 45px;
+    }
+
+}
+@media (max-width:576px) {
+    .container{
+        width: 100%;
+       padding: 0 20px;
+    }
+    .first{
+        background-image: url(./img/background-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .category-item:nth-child(3){
+        display: none;
+    }
+   
+    .category-item:nth-child(4){
+        display: none;
+    }
+    .category-item{
+        width: 100%;
+    }
+
+    .item-txt{
+        width: 100%;
+    }
+    .foot-box{
+        display: block;
+        
+    }
+    .foot-item{
+        padding-left: 20px;
+    }
+    .first-txt h1{
+        font-size: 32px;
+    }
+    .category-txt h2{
+        font-size: 24px;
+    }
+    .item-txt p{
+       font-size: 18px;
+    }
+    .new-txt h2{
+        font-size: 24px;
+    }
+    .new-item input{
+        width: 100%;    
+    }
+    .new-item button{
+        width: 100%;  
+    }
+    .new-item a{
+        font-size: 14px;
+        width: 100%;
+        
+    }
+    .new-item{
+width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .first-txt{
+        width: 100%;
+    }
+   
+.tool{
+    gap: 10px;
+}
+    
+}
